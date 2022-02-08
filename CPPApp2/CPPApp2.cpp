@@ -2,8 +2,6 @@
 //
 
 #include <iostream>
-//#include <cstring>
-//#include <string>
 
 using namespace std;
 
@@ -13,19 +11,15 @@ int main()
     char grade;
     cout << "What is your grade? ";
     cin >> grade;
-    //cout << "You entered: " << grade << "\n\n";
     grade = tolower(grade);
-    //cout << "You entered: " << grade << "\n\n";
 
     switch(grade){
-        //case 'a' || 'b' || 'c' || 'd' :
         case 'a':
         case 'b':
         case 'c':
         case 'd':
             cout << "You passed with a grade of: " << grade << "\n\n";
             switch (grade) {
-                //case 'a' || 'b' || 'c' || 'd' :
             case 'a':
                 cout << "Excellent job.\n";
                 break;
